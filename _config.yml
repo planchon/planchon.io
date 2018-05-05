@@ -16,6 +16,8 @@ highlighter: rouge
 gist:
      noscript: false
 
+baseurl: ""
+url: "http://planchon.io"
 permalink: /:title/
 
 kramdown:
