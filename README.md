@@ -1,6 +1,8 @@
 planchon.io
 ====
+
 its a personnal blog, nothing else. Ive modified a little bit the flex jekyll template
+
 Installation
 ===
 To use this theme, you would do so like any other Jekyll setup:
