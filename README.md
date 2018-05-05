@@ -1,12 +1,6 @@
-flex
+planchon.io
 ====
-
-Flex is a responsive, flexible, [Jekyll](http://jekyllrb.com) theme.
-
-The theme is based on the website [The Development](http://thedevelopment.co).
-
-View a demo website [here](http://the-development.github.io/flex/).
-
+its a personnal blog, nothing else. Ive modified a little bit the flex jekyll template
 Installation
 ===
 To use this theme, you would do so like any other Jekyll setup:
@@ -16,29 +10,15 @@ To use this theme, you would do so like any other Jekyll setup:
 3. `cd` to the forked directory and run `jekyll serve --watch`
 4. Celebrate and dance.
 
-Contributions
-===
-
-In general, there are no strict rules for contributing, only that your code is clean and well structured.
-
-For bugs:
-- To merge a fix, you can simply open a pull request.
-- To report one that is not yet fixed, open an issue.
-
-Feature requests:
-- **Always** open an issue first before implementing and proposing a new feature. This is only so I can make sure the theme doesn't become bloated with too many features. This way, I can determine if an idea is something that makes sense for the theme's design.
-
-If in doubt, you can always ask me on Twitter: [@jeffxmn](https://twitter.com/jeffxmn)
-
 License
 ===
 
-Flex is licensed under the MIT license:
+planchon.io is licensed under the MIT license:
 
 
 The MIT License (MIT)
 
-Copyright (c) 2013-2014 Jeff Martin
+Copyright (c) 2018 Paul Planchon
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
