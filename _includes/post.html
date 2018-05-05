@@ -1,0 +1,26 @@
+<div class="content" id="home">
+	<div id="sidebar-button">
+		<img src="/images/sidebar-button.png">
+	</div>
+	<div id="post-info">
+          {% if page.cover != null %}
+		<div id="cover-photo-container">
+			<img id="cover-photo" src="/images/{{ page.cover }}">
+		</div>
+          {% endif %}
+		<div id="info-container">
+			<h1 id="title">{{ page.title }}</h1>
+			<span id="date">{% assign dy = page.date | date: "%a" %}{% case dy %}{% when "Mon" %}Lundi{% when "Tue" %}Mardi{% when "Wed" %}Mercredi{% when "Thu" %}Jeudi{% when "Fri" %}Vendredi{% when "Sat" %}Samedi{% when "Sun" %}Dimanche{% else %}{{ dy }}{% endcase %} {% assign d = page.date | date: "%-d"  %}{% case d %}{% when '1' %}{{ d }}er{% else %}{{ d }}{% endcase %} {% assign m = page.date | date: "%-m" %}{% case m %}{% when '1' %}janvier{% when '2' %}février{% when '3' %}mars{% when '4' %}avril{% when '5' %}mai{% when '6' %}juin{% when '7' %}juillet{% when '8' %}août{% when '9' %}septembre{% when '10' %}octobre{% when '11' %}novembre{% when '12' %}décembre{% endcase %} {{ page.date | date: '%Y' }}</span>
+		</div>
+	</div>
+     <br>
+	<div class="post">
+		{{ content }}
+	</div>
+	<div class="colophon">
+		<p>
+			<span id="pub-date">Par {{ page.auteur }}</span> <span class="separator">&bull;</span>
+			<span id="social">Retrouvez moi sur <a href="">Twitter</a>!</span>
+		</p>
+	</div>
+</div>

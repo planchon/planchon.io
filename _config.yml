@@ -1,0 +1,40 @@
+name: planchon.io
+description: Mathématiques, Informatique, Physique et Stratégie Overwatch
+
+footer-link:
+     github: planchon
+     twitter: planchon_
+     reddit: lpl_
+
+encoding: UTF-8
+version: v1.2.0
+future: true
+jailed: false
+incremental: false
+highlighter: rouge
+
+gist:
+     noscript: false
+
+permalink: /:title/
+
+kramdown:
+     input: GFM
+     math_engine: mathjax
+     syntax_highlighter: rouge
+     syntax_highlighter_opts:
+          css_class: 'highlight'
+
+sass:
+     style: :expanded
+
+plugins:
+     - jekyll-sitemap
+     - jekyll-feed
+
+exclude:
+     - Gemfile
+     - Gemfile.lock
+     - LICENSE
+     - README.md
+     - CNAME
