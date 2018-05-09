@@ -4,8 +4,6 @@ category: life
 auteur: Paul Planchon
 ---
 
-JE SUIS UN TEST
-
 <h2>Globalement</h2>
 
 Enfin! planchon.io n'affiche plus que l'image statique d'une galaxie avec les mots : "planchon.io, soon"!
