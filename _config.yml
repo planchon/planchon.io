@@ -17,7 +17,7 @@ gist:
      noscript: false
 
 baseurl: ""
-url: "http://planchon.io"
+url: "https://planchon.io"
 permalink: /:title/
 
 kramdown:
