@@ -12,7 +12,6 @@ gist:
 
 baseurl: ""
 url: "https://planchon.io"
-permalink: /:title/
 
 permalink: /:title/
 
