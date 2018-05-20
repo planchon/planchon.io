@@ -16,4 +16,4 @@ Oui! Voici une *toute petite* liste des projets que j'ai fait durant toutes mes 
  - [gameOfLife, un jeu de la vie en pascal](https://github.com/planchon/gameoflife)
  - [planchon.io, un blog propulsé par Jekyll et Flex](https://github.com/planchon/planchon.io)
 
-Si vous voulez en savoir encore plus sur moi, voici mon [curriculum vitae](https://planchon.io/images/cv%20(3).pdf). Je t'invite à me contacter par [mail](mailto:paul@planchon.io)!
+Si vous voulez en savoir encore plus sur moi, voici mon [curriculum vitae](https://blog.planchon.io/images/cv%20(3).pdf). Je t'invite à me contacter par [mail](mailto:paul@planchon.io)!
