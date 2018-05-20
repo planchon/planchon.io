@@ -11,7 +11,7 @@ gist:
      noscript: false
 
 baseurl: ""
-url: "https://planchon.io"
+url: "https://blog.planchon.io"
 
 permalink: /:title/
 
